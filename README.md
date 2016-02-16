@@ -4,14 +4,19 @@ Basic and not finished launcher for Minecraft. First release was very popular, t
 #Additional dlls:
 Material Skin:
 http://ignacemaes.com
+
 GetJavaInfo:
 https://github.com/hsynlms/GetJavaInfo
+
 DotNetZip:
 http://dotnetzip.codeplex.com
+
 Json.NET:
 http://www.newtonsoft.com/json
+
 Better List View Express:
 http://www.componentowl.com
+
 Metro Framework:
 http://thielj.github.io/MetroFramework/
 
