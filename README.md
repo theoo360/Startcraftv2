@@ -1,5 +1,6 @@
 # StartCraft
 Basic and not finished launcher for Minecraft. First release was very popular, that's third. I won't be to continuing this.
+Probably code is weired because it's my first project made in VB.net
 
 #Additional dlls:
 Material Skin:
