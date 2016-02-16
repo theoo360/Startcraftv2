@@ -18,3 +18,7 @@ C:\Users\theoo\Documents\Visual Studio 2013\Projects\StartCraft v2\bin\Debug\New
 C:\Users\theoo\Documents\Visual Studio 2013\Projects\StartCraft v2\bin\Debug\Newtonsoft.Json.xml
 C:\Users\theoo\Documents\Visual Studio 2013\Projects\StartCraft v2\bin\Debug\Ionic.Zip.dll
 C:\Users\theoo\Documents\Visual Studio 2013\Projects\StartCraft v2\obj\Debug\StartCraft v2.vbprojResolveAssemblyReference.cache
+C:\Users\theoo\Source\Repos\Startcraftv2\bin\Debug\StartCraft v2.exe.config
+C:\Users\theoo\Source\Repos\Startcraftv2\obj\Debug\StartCraft v2.exe
+C:\Users\theoo\Source\Repos\Startcraftv2\obj\Debug\StartCraft v2.xml
+C:\Users\theoo\Source\Repos\Startcraftv2\obj\Debug\StartCraft v2.pdb

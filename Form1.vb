@@ -464,20 +464,20 @@ Public Class Form1
     End Sub
 
     Private Sub MetroButton7_Click(sender As Object, e As EventArgs) Handles MetroButton7.Click
-        If Not System.IO.Directory.Exists(maindir & "versions/") Then
-            System.IO.Directory.CreateDirectory(maindir & "versions/")
+        If Not Directory.Exists(maindir & "versions/") Then
+            Directory.CreateDirectory(maindir & "versions/")
         End If
-        If Not System.IO.Directory.Exists(maindir & "versions/" & BetterListView1.SelectedItems(0).Text) Then
-            System.IO.Directory.CreateDirectory(maindir & "versions/" & BetterListView1.SelectedItems(0).Text)
+        If Not Directory.Exists(maindir & "versions/" & BetterListView1.SelectedItems(0).Text) Then
+            Directory.CreateDirectory(maindir & "versions/" & BetterListView1.SelectedItems(0).Text)
         End If
-        If Not System.IO.Directory.Exists(maindir & "versions/natives") Then
-            System.IO.Directory.CreateDirectory(maindir & "versions/natives")
+        If Not Directory.Exists(maindir & "versions/natives") Then
+            Directory.CreateDirectory(maindir & "versions/natives")
         End If
-        If Not System.IO.Directory.Exists(maindir & "assets/") Then
-            System.IO.Directory.CreateDirectory(maindir & "assets/")
+        If Not Directory.Exists(maindir & "assets/") Then
+            Directory.CreateDirectory(maindir & "assets/")
         End If
-        If Not System.IO.Directory.Exists(maindir & "assets/indexes/") Then
-            System.IO.Directory.CreateDirectory(maindir & "assets/indexes/")
+        If Not Directory.Exists(maindir & "assets/indexes/") Then
+            Directory.CreateDirectory(maindir & "assets/indexes/")
         End If
         Dim pass As String = "Head"
         Dim frm As New Form2("Minecraft", BetterListView1.SelectedItems(0).Text, GetInfo(InfoTypes.ProcessorArch))

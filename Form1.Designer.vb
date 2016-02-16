@@ -61,11 +61,6 @@ Partial Class Form1
         Me.MetroComboBox1 = New MetroFramework.Controls.MetroComboBox()
         Me.MetroTextBox2 = New MetroFramework.Controls.MetroTextBox()
         Me.MetroTextBox1 = New MetroFramework.Controls.MetroTextBox()
-        Me.Nick8 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroPanel1 = New MetroFramework.Controls.MetroPanel()
-        Me.MetroLabel26 = New MetroFramework.Controls.MetroLabel()
-        Me.MetroTextBox17 = New MetroFramework.Controls.MetroTextBox()
-        Me.MetroButton12 = New MetroFramework.Controls.MetroButton()
         Me.Sett2 = New MetroFramework.Controls.MetroTabPage()
         Me.MetroLabel24 = New MetroFramework.Controls.MetroLabel()
         Me.MetroLabel25 = New MetroFramework.Controls.MetroLabel()
@@ -143,6 +138,11 @@ Partial Class Form1
         Me.MetroTextBox6 = New MetroFramework.Controls.MetroTextBox()
         Me.MetroTile4 = New MetroFramework.Controls.MetroTile()
         Me.MetroTextBox5 = New MetroFramework.Controls.MetroTextBox()
+        Me.Nick8 = New MetroFramework.Controls.MetroTabPage()
+        Me.MetroPanel1 = New MetroFramework.Controls.MetroPanel()
+        Me.MetroLabel26 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroTextBox17 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroButton12 = New MetroFramework.Controls.MetroButton()
         Me.MetroLink1 = New MetroFramework.Controls.MetroLink()
         Me.MetroLink2 = New MetroFramework.Controls.MetroLink()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
@@ -160,8 +160,6 @@ Partial Class Form1
         Me.MetroTabControl1.SuspendLayout()
         Me.Mc1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Nick8.SuspendLayout()
-        Me.MetroPanel1.SuspendLayout()
         Me.Sett2.SuspendLayout()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -174,6 +172,8 @@ Partial Class Form1
         Me.ModP6.SuspendLayout()
         Me.About7.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Nick8.SuspendLayout()
+        Me.MetroPanel1.SuspendLayout()
         CType(Me.PerformanceCounter1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PerformanceCounter2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -364,11 +364,11 @@ Partial Class Form1
         '
         Me.MetroTabControl1.CausesValidation = False
         Me.MetroTabControl1.Controls.Add(Me.Mc1)
+        Me.MetroTabControl1.Controls.Add(Me.ModP6)
         Me.MetroTabControl1.Controls.Add(Me.Sett2)
         Me.MetroTabControl1.Controls.Add(Me.Con3)
         Me.MetroTabControl1.Controls.Add(Me.Inf4)
         Me.MetroTabControl1.Controls.Add(Me.Mods5)
-        Me.MetroTabControl1.Controls.Add(Me.ModP6)
         Me.MetroTabControl1.Controls.Add(Me.About7)
         Me.MetroTabControl1.Controls.Add(Me.Nick8)
         Me.MetroTabControl1.FontWeight = MetroFramework.MetroTabControlWeight.Regular
@@ -534,68 +534,6 @@ Partial Class Form1
         Me.MetroTextBox1.UseSelectable = True
         Me.MetroTextBox1.UseStyleColors = True
         '
-        'Nick8
-        '
-        Me.Nick8.Controls.Add(Me.MetroPanel1)
-        Me.Nick8.HorizontalScrollbarBarColor = True
-        Me.Nick8.HorizontalScrollbarHighlightOnWheel = False
-        Me.Nick8.HorizontalScrollbarSize = 10
-        Me.Nick8.Location = New System.Drawing.Point(4, 38)
-        Me.Nick8.Name = "Nick8"
-        Me.Nick8.Size = New System.Drawing.Size(842, 472)
-        Me.Nick8.TabIndex = 7
-        Me.Nick8.Text = "Guest"
-        Me.Nick8.VerticalScrollbarBarColor = True
-        Me.Nick8.VerticalScrollbarHighlightOnWheel = False
-        Me.Nick8.VerticalScrollbarSize = 10
-        '
-        'MetroPanel1
-        '
-        Me.MetroPanel1.Controls.Add(Me.MetroLabel26)
-        Me.MetroPanel1.Controls.Add(Me.MetroTextBox17)
-        Me.MetroPanel1.Controls.Add(Me.MetroButton12)
-        Me.MetroPanel1.HorizontalScrollbarBarColor = True
-        Me.MetroPanel1.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroPanel1.HorizontalScrollbarSize = 10
-        Me.MetroPanel1.Location = New System.Drawing.Point(3, 3)
-        Me.MetroPanel1.Name = "MetroPanel1"
-        Me.MetroPanel1.Size = New System.Drawing.Size(836, 466)
-        Me.MetroPanel1.TabIndex = 3
-        Me.MetroPanel1.VerticalScrollbarBarColor = True
-        Me.MetroPanel1.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroPanel1.VerticalScrollbarSize = 10
-        '
-        'MetroLabel26
-        '
-        Me.MetroLabel26.AutoSize = True
-        Me.MetroLabel26.Location = New System.Drawing.Point(345, 159)
-        Me.MetroLabel26.Name = "MetroLabel26"
-        Me.MetroLabel26.Size = New System.Drawing.Size(125, 19)
-        Me.MetroLabel26.TabIndex = 4
-        Me.MetroLabel26.Text = "Specjalny Beta-Kod:"
-        '
-        'MetroTextBox17
-        '
-        Me.MetroTextBox17.Lines = New String(-1) {}
-        Me.MetroTextBox17.Location = New System.Drawing.Point(345, 181)
-        Me.MetroTextBox17.MaxLength = 32767
-        Me.MetroTextBox17.Name = "MetroTextBox17"
-        Me.MetroTextBox17.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.MetroTextBox17.ScrollBars = System.Windows.Forms.ScrollBars.None
-        Me.MetroTextBox17.SelectedText = ""
-        Me.MetroTextBox17.Size = New System.Drawing.Size(145, 23)
-        Me.MetroTextBox17.TabIndex = 3
-        Me.MetroTextBox17.UseSelectable = True
-        '
-        'MetroButton12
-        '
-        Me.MetroButton12.Location = New System.Drawing.Point(345, 210)
-        Me.MetroButton12.Name = "MetroButton12"
-        Me.MetroButton12.Size = New System.Drawing.Size(145, 23)
-        Me.MetroButton12.TabIndex = 2
-        Me.MetroButton12.Text = "MetroButton12"
-        Me.MetroButton12.UseSelectable = True
-        '
         'Sett2
         '
         Me.Sett2.Controls.Add(Me.MetroLabel24)
@@ -723,7 +661,7 @@ Partial Class Form1
         Me.MetroLabel19.FontSize = MetroFramework.MetroLabelSize.Small
         Me.MetroLabel19.Location = New System.Drawing.Point(22, 367)
         Me.MetroLabel19.Name = "MetroLabel19"
-        Me.MetroLabel19.Size = New System.Drawing.Size(32, 15)
+        Me.MetroLabel19.Size = New System.Drawing.Size(31, 15)
         Me.MetroLabel19.TabIndex = 38
         Me.MetroLabel19.Text = "False"
         '
@@ -742,7 +680,7 @@ Partial Class Form1
         Me.MetroLabel18.FontSize = MetroFramework.MetroLabelSize.Small
         Me.MetroLabel18.Location = New System.Drawing.Point(22, 345)
         Me.MetroLabel18.Name = "MetroLabel18"
-        Me.MetroLabel18.Size = New System.Drawing.Size(29, 15)
+        Me.MetroLabel18.Size = New System.Drawing.Size(27, 15)
         Me.MetroLabel18.TabIndex = 36
         Me.MetroLabel18.Text = "True"
         '
@@ -761,7 +699,7 @@ Partial Class Form1
         Me.MetroLabel16.FontSize = MetroFramework.MetroLabelSize.Small
         Me.MetroLabel16.Location = New System.Drawing.Point(22, 323)
         Me.MetroLabel16.Name = "MetroLabel16"
-        Me.MetroLabel16.Size = New System.Drawing.Size(146, 15)
+        Me.MetroLabel16.Size = New System.Drawing.Size(144, 15)
         Me.MetroLabel16.TabIndex = 34
         Me.MetroLabel16.Text = "To repair - now not working"
         '
@@ -963,7 +901,7 @@ Partial Class Form1
         Me.MetroLabel14.AutoSize = True
         Me.MetroLabel14.Location = New System.Drawing.Point(261, 142)
         Me.MetroLabel14.Name = "MetroLabel14"
-        Me.MetroLabel14.Size = New System.Drawing.Size(93, 19)
+        Me.MetroLabel14.Size = New System.Drawing.Size(94, 19)
         Me.MetroLabel14.TabIndex = 18
         Me.MetroLabel14.Text = "Java directory:"
         '
@@ -1060,7 +998,7 @@ Partial Class Form1
         Me.MetroLabel9.AutoSize = True
         Me.MetroLabel9.Location = New System.Drawing.Point(261, 13)
         Me.MetroLabel9.Name = "MetroLabel9"
-        Me.MetroLabel9.Size = New System.Drawing.Size(177, 19)
+        Me.MetroLabel9.Size = New System.Drawing.Size(178, 19)
         Me.MetroLabel9.TabIndex = 9
         Me.MetroLabel9.Text = "Main directory for minecraft:"
         '
@@ -1584,6 +1522,68 @@ Partial Class Form1
         Me.MetroTextBox5.UseSelectable = True
         Me.MetroTextBox5.UseStyleColors = True
         '
+        'Nick8
+        '
+        Me.Nick8.Controls.Add(Me.MetroPanel1)
+        Me.Nick8.HorizontalScrollbarBarColor = True
+        Me.Nick8.HorizontalScrollbarHighlightOnWheel = False
+        Me.Nick8.HorizontalScrollbarSize = 10
+        Me.Nick8.Location = New System.Drawing.Point(4, 38)
+        Me.Nick8.Name = "Nick8"
+        Me.Nick8.Size = New System.Drawing.Size(842, 472)
+        Me.Nick8.TabIndex = 7
+        Me.Nick8.Text = "Guest"
+        Me.Nick8.VerticalScrollbarBarColor = True
+        Me.Nick8.VerticalScrollbarHighlightOnWheel = False
+        Me.Nick8.VerticalScrollbarSize = 10
+        '
+        'MetroPanel1
+        '
+        Me.MetroPanel1.Controls.Add(Me.MetroLabel26)
+        Me.MetroPanel1.Controls.Add(Me.MetroTextBox17)
+        Me.MetroPanel1.Controls.Add(Me.MetroButton12)
+        Me.MetroPanel1.HorizontalScrollbarBarColor = True
+        Me.MetroPanel1.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroPanel1.HorizontalScrollbarSize = 10
+        Me.MetroPanel1.Location = New System.Drawing.Point(3, 3)
+        Me.MetroPanel1.Name = "MetroPanel1"
+        Me.MetroPanel1.Size = New System.Drawing.Size(836, 466)
+        Me.MetroPanel1.TabIndex = 3
+        Me.MetroPanel1.VerticalScrollbarBarColor = True
+        Me.MetroPanel1.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroPanel1.VerticalScrollbarSize = 10
+        '
+        'MetroLabel26
+        '
+        Me.MetroLabel26.AutoSize = True
+        Me.MetroLabel26.Location = New System.Drawing.Point(345, 159)
+        Me.MetroLabel26.Name = "MetroLabel26"
+        Me.MetroLabel26.Size = New System.Drawing.Size(125, 19)
+        Me.MetroLabel26.TabIndex = 4
+        Me.MetroLabel26.Text = "Specjalny Beta-Kod:"
+        '
+        'MetroTextBox17
+        '
+        Me.MetroTextBox17.Lines = New String(-1) {}
+        Me.MetroTextBox17.Location = New System.Drawing.Point(345, 181)
+        Me.MetroTextBox17.MaxLength = 32767
+        Me.MetroTextBox17.Name = "MetroTextBox17"
+        Me.MetroTextBox17.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox17.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox17.SelectedText = ""
+        Me.MetroTextBox17.Size = New System.Drawing.Size(145, 23)
+        Me.MetroTextBox17.TabIndex = 3
+        Me.MetroTextBox17.UseSelectable = True
+        '
+        'MetroButton12
+        '
+        Me.MetroButton12.Location = New System.Drawing.Point(345, 210)
+        Me.MetroButton12.Name = "MetroButton12"
+        Me.MetroButton12.Size = New System.Drawing.Size(145, 23)
+        Me.MetroButton12.TabIndex = 2
+        Me.MetroButton12.Text = "MetroButton12"
+        Me.MetroButton12.UseSelectable = True
+        '
         'MetroLink1
         '
         Me.MetroLink1.DisplayFocus = True
@@ -1669,16 +1669,13 @@ Partial Class Form1
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "StartCraft"
+        Me.Text = " "
         CType(Me.MetroStyleManager1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MetroContextMenu1.ResumeLayout(False)
         Me.MetroTabControl1.ResumeLayout(False)
         Me.Mc1.ResumeLayout(False)
         Me.Mc1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Nick8.ResumeLayout(False)
-        Me.MetroPanel1.ResumeLayout(False)
-        Me.MetroPanel1.PerformLayout()
         Me.Sett2.ResumeLayout(False)
         Me.Sett2.PerformLayout()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1694,6 +1691,9 @@ Partial Class Form1
         Me.About7.ResumeLayout(False)
         Me.About7.PerformLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Nick8.ResumeLayout(False)
+        Me.MetroPanel1.ResumeLayout(False)
+        Me.MetroPanel1.PerformLayout()
         CType(Me.PerformanceCounter1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PerformanceCounter2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
