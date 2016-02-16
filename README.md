@@ -2,6 +2,8 @@
 Basic and not finished launcher for Minecraft. First release was very popular, that's third. I won't be to continuing this.
 Probably code is weired because it's my first project made in VB.net
 
+Probably there are missing files (minecraft and www-server side PHP scripts), but everyone should know how to download or make this yourself.
+
 #Additional dlls:
 Material Skin:
 http://ignacemaes.com
